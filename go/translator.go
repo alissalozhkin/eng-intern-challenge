@@ -7,7 +7,6 @@ import (
 	"strings"
 )
 
-// Braille to English and English to Braille mapping
 var brailleToEnglish = map[string]string{
 	"O.....": "a", "O.O...": "b", "OO....": "c", "OO.O..": "d", "O..O..": "e",
 	"OOO...": "f", "OOOO..": "g", "O.OO..": "h", ".OO...": "i", ".OOO..": "j",
